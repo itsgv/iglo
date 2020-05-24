@@ -24,7 +24,7 @@ def Input(text):
 
 #The main class
 class Instabrute():
-	def __init__(self, username, passwordsFile='pass.txt'):
+	def __init__(self, username, passwordsFile='10-million-password-list-top-1000000.txt'):
 		self.username = username
 		self.CurrentProxy = ''
 		self.UsedProxys = []
